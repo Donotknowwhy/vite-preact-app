@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: vite-preact-app
+    image: vite-preact-app
+    build:
+      context: .
+      target: production
